@@ -1,0 +1,46 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "info",
+    "header": "Cancelamento solicitado",
+    "title": "Entraremos em contato antes de domingo, 31 de dezembro, para te dar uma solução",
+    "messages": [
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Estamos analisando o que aconteceu para cancelar a compra."
+      },
+      {
+        "type": "paragraph",
+        "title": "",
+        "content": "Sua compra continua garantida."
+      }
+    ],
+    "actions": [
+      {
+        "hierarchy": "secondary",
+        "label": "Como meu caso será solucionado",
+        "type": "help",
+        "content": "24034",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "optional",
+        "label": "Ver reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/compras/novo/mensagens/2000005173152240/1177794367/reclamacao/5177338381",
+        "placeholders": null
+      },
+      {
+        "hierarchy": "tertiary",
+        "label": "Encerrar a solicitação de cancelamento",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/post-purchase/claims/5177338381/actions/close-claim",
+        "placeholders": null
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}

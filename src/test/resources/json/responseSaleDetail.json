@@ -1,0 +1,40 @@
+{
+  "resource_type": "shipment",
+  "resource_id": 42139118821,
+  "status": {
+    "type": "error",
+    "title": "Seu comprador está solicitando o cancelamento. Você tem até hoje para resolver o caso.",
+    "subtitle": "Resolva a reclamação nesse prazo, caso contrário, teremos que cancelar a venda.",
+    "actions": [
+      {
+        "hierarchy": "primary",
+        "label": "Atender reclamação",
+        "type": "redirect",
+        "content": "https://www.mercadolivre.com.br/vendas/novo/mensagens/2000005173152240/reclamacao/5177338381",
+        "placeholders": null
+      },
+      {
+        "id": "pnr_reputation_with_cancellation",
+        "hierarchy": "tertiary",
+        "label": "Como cuidar da minha reputação nas reclamações com cancelamento",
+        "type": "help",
+        "content": "https://www.mercadolivre.com.br/ajuda/28475",
+        "placeholders": null
+      }
+    ],
+    "claim_reason": [
+      {
+        "type": "inline_bold",
+        "title": "",
+        "content": "Problema da venda"
+      },
+      {
+        "type": "inline",
+        "title": "",
+        "content": "O comprador disse que se arrependeu da compra."
+      }
+    ]
+  },
+  "secondary": null,
+  "metadata": null
+}
